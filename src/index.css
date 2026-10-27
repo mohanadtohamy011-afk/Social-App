@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@import "@heroui/styles"; 
+
+@theme {
+    --color-sec : #f0f2f57a;
+    --color-main : #d75744;
+}
+
+
+@layer components {
+/* Base skeleton styles */
+.skeleton{
+@apply bg-gray-400;
+}
+}
